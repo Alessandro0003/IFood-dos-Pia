@@ -26,5 +26,5 @@
 <h2>Rotas:</h2>
 <p>XXX</p>
 
-<h2>Padrões de commits: https://github.com/iuricode/padroes-de-commits</h2>
+<h4>Padrões de commits: https://github.com/iuricode/padroes-de-commits</h2>
 <span>Ingles ou Portugues</span>
