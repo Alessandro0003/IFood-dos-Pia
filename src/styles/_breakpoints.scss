@@ -1,0 +1,23 @@
+//Queries for tablets...
+$small-tablet: 481px;
+
+//Queries for small screen/display...
+$small-desktop: 769px;
+$medium-desktop: 1024px;
+
+//Queries for medium desktops...
+$big-desktop: 1200px;
+
+//examples
+// @media screen and (min-width: $small-desktop) and (max-width: $medium-desktop) {
+   //estilizar para tablets...
+// }
+
+// @media screen and (min-width: $medium-desktop) and (max-width: $big-desktop) {
+   //estilizar para notbooks...
+// }
+
+// @media screen and (min-width: $big-desktop) {
+   //estilizar para pcs...
+// }
+

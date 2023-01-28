@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.btn {
+  padding: 1em 2em;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: $dark-pink;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.9rem 4.90rem;    
+  border-radius: 1rem;
+  transition: .3s ease;
+  &:hover {
+    background-color: $pink;
+    color: $dark;
+  }
+}

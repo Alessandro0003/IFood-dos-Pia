@@ -1,0 +1,54 @@
+@import '../../styles/breakpoints';
+@import '../../styles/variables';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  .header-mobile {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    gap: 25px;
+  }
+  .header-desktop {
+   display: none;
+  }
+}
+
+//examples
+// @media screen and (min-width: $small-desktop) and (max-width: $medium-desktop) {
+   //estilizar para tablets...
+// }
+
+// @media screen and (min-width: $medium-desktop) and (max-width: $big-desktop) {
+   //estilizar para notbooks...
+// }
+
+ @media screen and (min-width: $big-desktop) {
+   .header {
+      padding: 1.5em 4em;
+      .header-mobile {
+         display: none;
+      }
+      .header-desktop {
+         display: block;
+      }
+      .header-container {
+         font-size: 19px;
+      }
+   }
+   .menu{
+      gap: 25px;
+      font-size: 18px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+   }
+
+   .li{
+      text-decoration: none;
+      color: $dark;
+   }
+ }
