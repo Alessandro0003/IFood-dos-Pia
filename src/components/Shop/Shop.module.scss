@@ -1,0 +1,17 @@
+@import '../../styles/breakpoints';
+@import '../../styles/variables';
+
+.shop {
+  margin: 4em 2em;
+  .shop-title {
+    font-size: 1.5em;
+    font-family: $font-kalam;
+    text-align: center;
+  }
+  .shop-cookie--list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em 0;
+  }
+}

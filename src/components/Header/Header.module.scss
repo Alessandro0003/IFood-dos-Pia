@@ -11,20 +11,18 @@
     font-size: 20px;
     display: flex;
     gap: 25px;
+    .menu {
+      text-decoration: none;
+      color: $dark;
+    }
   }
   .header-desktop {
    display: none;
   }
+  .header-container {
+   font-size: 19px;
 }
-
-//examples
-// @media screen and (min-width: $small-desktop) and (max-width: $medium-desktop) {
-   //estilizar para tablets...
-// }
-
-// @media screen and (min-width: $medium-desktop) and (max-width: $big-desktop) {
-   //estilizar para notbooks...
-// }
+}
 
  @media screen and (min-width: $big-desktop) {
    .header {
@@ -34,21 +32,17 @@
       }
       .header-desktop {
          display: block;
+         .menu-list {
+            gap: 25px;
+            font-size: 18px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            .menu-item {
+               text-decoration: none;
+               color: $dark;
+            }
+         }
       }
-      .header-container {
-         font-size: 19px;
-      }
-   }
-   .menu{
-      gap: 25px;
-      font-size: 18px;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-   }
-
-   .li{
-      text-decoration: none;
-      color: $dark;
    }
  }

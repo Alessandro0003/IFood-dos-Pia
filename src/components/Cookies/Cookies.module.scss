@@ -1,0 +1,69 @@
+@import '../../styles/breakpoints';
+@import '../../styles/variables';
+
+.cookies {
+  padding: 4em 0;
+  width: 100vw;
+  .cookies-title {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 0 1.5em 0;
+    font-family: $font-kalam;
+  }
+  .cookies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5em;
+    .cookie-image {
+      max-width: 80%;
+      border-radius: 1em;
+    }
+  }
+}
+
+@media screen and (min-width: $small-desktop) and (max-width: $medium-desktop) {
+  .cookies {
+    padding: 5em 0;
+    .cookies-container {
+      gap: 2em;
+      figure {
+        width: 40%;
+        .cookie-image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $medium-desktop) and (max-width: $big-desktop) {
+  .cookies {
+    .cookies-container {
+      figure {
+        width: 20%;
+        .cookie-image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $big-desktop) {
+  .cookies {
+    padding: 8em 0;
+    .cookies-title {
+      font-size: 2em;
+    }
+    .cookies-container {
+      figure {
+        width: 15%;
+        .cookie-image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/variables';
+
+.cookie {
+  padding: 1em;
+  border: 2px solid $pink;
+  border-radius: 20px;
+  background-color: $gray-background;
+  .cookie-title {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  .cookie-container {
+    .cookie-img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+    .cookie-desc {
+      padding: 1em 0;
+    }
+  }
+  .cookie-container--characteristics {
+    display: flex;
+    justify-content: space-between;
+  }
+}

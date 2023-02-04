@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Cookie sem recheio",
+    "description": "Não precisa ser recheado para ser bom, não é mesmo?",
+    "photo": "assets/img/imagem-cookie-shop1.jpg",
+    "size": 400,
+    "price": 73.0,
+    "id": 1
+  },
+  {
+    "title": "Cookie com recheio da casa",
+    "description": "Além do gosto incrível da nossa massa, experimente nosso recheio da casa",
+    "photo": "assets/img/imagem-cookie-shop2.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 54.66,
+    "id": 2
+  },  
+  {
+    "title": "Cookie com recheio de chocolate",
+    "description": "Além do gosto incrível da nossa massa, experimente nosso recheio de chocolate",
+    "photo": "assets/img/imagem-cookie-shop1.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 54.0,
+    "id": 2
+  },
+  {
+    "title": "Cookie com recheio de morango",
+    "description": "Além do gosto incrível da nossa massa, experimente nosso recheio de morango",
+    "photo": "assets/img/imagem-cookie-shop2.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 54.0,
+    "id": 2
+  }
+]
